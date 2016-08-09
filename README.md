@@ -8,3 +8,6 @@ A library that groups useful utils for day to day development.
 
 ##HardwareFeatureUtils
 - isTelephonyFeatureAvailable(Context context)
+
+##UriUtils 
+- getDrawableUri(@DrawableRes int drawableResId)

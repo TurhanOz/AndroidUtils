@@ -9,5 +9,7 @@ A library that groups useful utils for day to day development.
 ##HardwareFeatureUtils
 - isTelephonyFeatureAvailable(Context context)
 
-##UriUtils 
+##UriUtils
 - getDrawableUri(@DrawableRes int drawableResId)
+- getFileUri(File file)
+- getUrlUri(String url)

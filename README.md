@@ -8,6 +8,8 @@ A library that groups useful utils for day to day development.
 
 ##HardwareFeatureUtils
 - isTelephonyFeatureAvailable(Context context)
+- isCameraFeatureAvailable(Context context)
+- isFrontCameraFeatureAvailable(Context context)
 
 ##UriUtils
 - getDrawableUri(@DrawableRes int drawableResId)

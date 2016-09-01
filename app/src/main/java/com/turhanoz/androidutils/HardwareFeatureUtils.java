@@ -28,7 +28,19 @@ public class HardwareFeatureUtils {
      * @return
      */
     public static boolean isTelephonyFeatureAvailable(Context context) {
+        return isFeatureAvailable(context, PackageManager.FEATURE_TELEPHONY);
+    }
+
+    public static boolean isCameraFeatureAvailable(Context context) {
+        return isFeatureAvailable(context, PackageManager.FEATURE_CAMERA);
+    }
+
+    public static boolean isFrontCameraFeatureAvailable(Context context) {
+        return isFeatureAvailable(context, PackageManager.FEATURE_CAMERA_FRONT);
+    }
+
+    private static boolean isFeatureAvailable(Context context, String feature){
         PackageManager pm = context.getPackageManager();
-        return pm.hasSystemFeature(PackageManager.FEATURE_TELEPHONY);
+        return pm.hasSystemFeature(feature);
     }
 }

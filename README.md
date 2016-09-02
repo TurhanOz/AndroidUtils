@@ -15,3 +15,6 @@ A library that groups useful utils for day to day development.
 - getDrawableUri(@DrawableRes int drawableResId)
 - getFileUri(File file)
 - getUrlUri(String url)
+
+##SmsUtils
+- sendNativeSms(String message, ArrayList<String> phoneNumbers)

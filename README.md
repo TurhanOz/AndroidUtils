@@ -18,3 +18,6 @@ A library that groups useful utils for day to day development.
 
 ##SmsUtils
 - sendNativeSms(String message, ArrayList<String> phoneNumbers)
+
+##KeyboardUtils
+- void showVirtualKeyboard(View view)

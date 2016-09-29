@@ -20,4 +20,9 @@ A library that groups useful utils for day to day development.
 - sendNativeSms(String message, ArrayList<String> phoneNumbers)
 
 ##KeyboardUtils
-- void showVirtualKeyboard(View view)
+- showVirtualKeyboard(View view)
+
+##ScreenUtils
+- getDisplayMetrics(Context context)
+- getScreenWidthPx(Context context)
+- getScreenHeightPx(Context context)

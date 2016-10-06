@@ -26,3 +26,6 @@ A library that groups useful utils for day to day development.
 - getDisplayMetrics(Context context)
 - getScreenWidthPx(Context context)
 - getScreenHeightPx(Context context)
+
+##UnitUtils
+- convertDpToPx(Context context, int valueInDp)

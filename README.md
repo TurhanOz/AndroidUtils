@@ -17,6 +17,7 @@ A library that groups useful utils for day to day development.
 - getUrlUri(String url)
 
 ##SmsUtils
+- isSimReady(Context context)
 - sendNativeSms(String message, ArrayList<String> phoneNumbers)
 
 ##KeyboardUtils
